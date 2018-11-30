@@ -46,8 +46,8 @@ for elem in rows:
     else:
         print("Your test is FAIL")
 
-#driver.close()
+driver.close()
 
 
-driver.find_element_by_css_selector("[class='gb_ab gbii']").click()
-driver.find_element_by_css_selector ("[class='gb_za gb_dg gb_jg gb_Ze gb_Hb']").click()
+#driver.find_element_by_css_selector("[class='gb_ab gbii']").click()
+#driver.find_element_by_css_selector ("[class='gb_za gb_dg gb_jg gb_Ze gb_Hb']").click()
